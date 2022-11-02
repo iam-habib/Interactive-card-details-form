@@ -197,7 +197,7 @@ input:focus {
 }
 
 .thankyou {
-  width: 500px;
+  width: 31.25em;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -513,6 +513,13 @@ input:focus {
     display: block;
     width: 100%;
   }
+  
+  .thankyou {
+   width: 23.25em;
+     position: static;
+    top: 0%;
+    left: 0%;
+    transform: translate(-0%, -0%);
 }
 
 @media screen and (min-width: 50px) and (max-width: 500px) {
@@ -570,6 +577,9 @@ input:focus {
   .card_form {
     width: 20.25em;
   }
+  
+  .thankyou {
+    width: 20.25em;
 }
 
 @media screen and (min-width: 50px) and (max-width: 380px) {
@@ -613,4 +623,7 @@ input:focus {
   .card_form {
     width: 90%;
   }
+  
+  .thankyou {
+    width: 90%;
 }
