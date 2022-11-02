@@ -500,13 +500,6 @@ input:focus {
     margin-right: 1em;
   }
 
-  #exp-month {
-    width: 45%;
-  }
-
-  #exp-year {
-    width: 45%;
-  }
 
   .cvc {
     width: 80%;
